@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-29T21:39:13 IST" name="Default suite" finished-at="2025-04-29T21:39:13 IST" duration-ms="70">
+    <groups>
+    </groups>
+    <test started-at="2025-04-29T21:39:13 IST" name="Default test" finished-at="2025-04-29T21:39:13 IST" duration-ms="70">
+      <class name="com.testng.TestNG_Projects">
+        <test-method signature="browser()[pri:0, instance:com.testng.TestNG_Projects@35dab4eb]" started-at="2025-04-29T21:39:13 IST" name="browser" finished-at="2025-04-29T21:39:13 IST" duration-ms="24" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.testng.TestNG_Projects.browser() didn't finish within the time-out 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.testng.TestNG_Projects.browser() didn't finish within the time-out 1
+at java.base@16.0.2/jdk.internal.org.objectweb.asm.ClassReader.readUtf(ClassReader.java:3716)
+at java.base@16.0.2/jdk.internal.org.objectweb.asm.ClassReader.readUtf(ClassReader.java:3685)
+at java.base@16.0.2/jdk.internal.org.objectweb.asm.ClassReader.readUTF8(ClassReader.java:3666)
+at java.base@16.0.2/jdk.internal.org.objectweb.asm.ClassReader.readConst(ClassReader.java:3841)
+at java.base@16.0.2/java.lang.invoke.MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2264)
+at java.base@16.0.2/java.lang.invoke.MethodHandles$Lookup.makeHiddenClassDefiner(MethodHandles.java:2366)
+at java.base@16.0.2/java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2133)
+at java.base@16.0.2/java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:409)
+at java.base@16.0.2/java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:304)
+at java.base@16.0.2/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:218)
+at java.base@16.0.2/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:328)
+at java.base@16.0.2/java.lang.invoke.LambdaForm$DMH/0x0000000800178400.invokeStatic(LambdaForm$DMH)
+at java.base@16.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+at java.base@16.0.2/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:127)
+at java.base@16.0.2/java.lang.invoke.CallSite.makeSite(CallSite.java:315)
+at java.base@16.0.2/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281)
+at java.base@16.0.2/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271)
+at java.logging@16.0.2/java.util.logging.Level$KnownLevel.add(Level.java:636)
+at java.logging@16.0.2/java.util.logging.Level.<init>(Level.java:248)
+at java.logging@16.0.2/java.util.logging.Level.<init>(Level.java:233)
+at java.logging@16.0.2/java.util.logging.Level.<clinit>(Level.java:114)
+at java.logging@16.0.2/java.util.logging.Logger.<clinit>(Logger.java:224)
+at app//org.openqa.selenium.remote.RemoteWebDriver.<clinit>(RemoteWebDriver.java:95)
+at app//com.testng.TestNG_Projects.browser(TestNG_Projects.java:33)
+at java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base@16.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@16.0.2/java.lang.reflect.Method.invoke(Method.java:567)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@16.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base@16.0.2/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testng.TestNG_Projects@35dab4eb]" started-at="2025-04-29T21:39:14 IST" name="logout" finished-at="2025-04-29T21:39:14 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "com.testng.TestNG_Projects.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "com.testng.TestNG_Projects.driver" is null
+at com.testng.TestNG_Projects.logout(TestNG_Projects.java:142)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:386)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.testng.TestNG_Projects -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
